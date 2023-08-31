@@ -16,6 +16,6 @@ function vowelOne(s) {
   return result;
 }
 
-const s = "рello, main";
+const s = "hello, main";
 const convertedString = vowelOne(s);
 console.log(convertedString);
