@@ -7,12 +7,19 @@ const obj = {
 };
 
 function strCount(obj) {
+  const numbers = [];
+
   for (const key in obj) {
     if (typeof obj[key] === "number") {
-      return obj[key];
+      numbers.push(obj[key]);
     }
   }
-  return false;
+
+  if (numbers.length === 0) {
+    return false;
+  }
+
+  return numbers;
 }
 
 const test = strCount(obj);
