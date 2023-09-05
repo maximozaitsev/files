@@ -2,4 +2,4 @@
 ## current progress
 ### strings
 - 11 tasks completed
-- killer.js
+- [killer.js](https://github.com/maximozaitsev/files/blob/main/killer.js)
